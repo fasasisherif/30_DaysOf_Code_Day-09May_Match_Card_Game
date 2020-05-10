@@ -1,0 +1,182 @@
+body{
+		margin:0;
+		padding:0;
+		font-family:"Baloo Da 2";
+		background-color:#f4f4f4;
+		}
+.all{
+		border:2px double #aeaeae;
+		}
+.navbar{
+		background-color:#dbdbdb;
+		display:flex;
+		justify-content:space-between;
+		}
+.memory{
+		font-size:20px;
+		padding:10px;
+		align-self:center;
+		font-weight:bold;
+		}
+.reset{
+		font-size:20px;
+		padding:5px 15px;
+		background-color:#426a8d;
+		margin-right:10px;
+		align-self:center;
+		color:white;
+		}
+.reset:hover{
+		background-color:darkblue;
+		}
+.game{
+		width:80%;
+		background-color:#5900cc;
+		margin:2pc auto;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;	
+		paddin: 20px auto;
+		}
+.score0{
+		width:80%;
+		background-color:#5900cc;
+		color:white;
+		margin:auto;
+		font-size:20px;
+		text-align:center;
+		}
+.topic{
+		background-colo:green;
+		}
+.top, .bottom{
+		text-align:center;
+		padding:10px;
+		font-size:35px;
+		}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13,.card14,.card15,.card16{
+		width:50px;
+		background-colo:green;
+		height:70px;
+		perspective:600px;
+		margin:.5pc;
+		}
+.inner_card1,.inner_card2,.inner_card3,.inner_card4,.inner_card5,.inner_card6,.inner_card7,.inner_card8,.inner_card9,.inner_card10,.inner_card11,.inner_card12,.inner_card13,.inner_card14,.inner_card15,.inner_card16{
+		position:relative;
+		width:100%;
+		height:100%;
+		transition:transform 1s ease;
+		transform-style:preserve-3d;
+		}
+.front1,.back1,.front2,.back2,.front3,.back3,.front4,.back4,.front5,.back5,.front6,.back6,.front7,.back7,.front8,.back8,.front9,.back9,.front10,.back10,.front11,.back11,.front12,.back12,.front13,.back13,.front14,.back14,.front15,.back15,.front16,.back16{
+		background-color:magenta;		
+		position:absolute;
+		width:100%;
+		height:100%;
+		text-align:center;
+		backface-visibility:hidden;
+		}
+.back1{
+		background-color:lime;
+		transform:rotateY(180deg);
+		}		
+.back2{
+		background-color:lime;
+		transform:rotateY(180deg);
+		}
+.back3{
+		background-color:grey;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back4{
+		background-color:grey;
+		transform:rotateY(180deg);
+		color:white;
+		}		
+.back5{
+		background-color:orange;
+		transform:rotateY(180deg);
+		}
+.back6{
+		background-color:orange;
+		transform:rotateY(180deg);
+		}
+.back7{
+		background-color:red;
+		transform:rotateY(180deg);
+		color:white;
+		}		
+.back8{
+		background-color:red;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back9{
+		background-color:cyan;
+		transform:rotateY(180deg);
+		}
+.back10{
+		background-color:cyan;
+		transform:rotateY(180deg);
+		}		
+.back11{
+		background-color:#aa00ff;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back12{
+		background-color:#aa00ff;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back13{
+		background-color:purple;
+		transform:rotateY(180deg);
+		color:white;
+		}		
+.back14{
+		background-color:purple;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back15{
+		background-color:#654321;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.back16{
+		background-color:#654321;
+		transform:rotateY(180deg);
+		color:white;
+		}
+.timer0,.moves0{
+		text-align:center;
+		margin:1.5pc auto;
+		}
+.timer0{
+		background-color:#dbdbdb;
+		width:30%;
+		margin:auto;
+		border:2px double #aeaeae;
+		}
+.moves0{
+		background-color:#dbdbdb;
+		width:50%;
+		margin:1.5pc auto 3pc auto;
+		border:2px double #aeaeae;
+		}
+
+
+
+
+@media (min-width:768px){
+.all{
+		width:40%;
+		margin:auto;
+		}		
+.score0{
+		width:65%;
+		}	
+}
+
